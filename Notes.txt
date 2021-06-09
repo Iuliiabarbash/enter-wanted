@@ -1,0 +1,82 @@
+Enter Wanted v1.4.
+•	Questions
+1.	In section License State what characters type should be input?
+2.	In Height field, how user would know that first should “F” and other in inch, will it be int or floating value?
+3.	How user will know about the format of each field?
+4.	Will it be a sigh of fields which are Required or which one optional?
+5.	For Sex field is it matter lower case or upper case?
+6.	For Rase should be included more characters. How that will be possible to identify race by one ch? 
+7.	No version listed in the documents? App named with one version and in app there is another visible.
+8.	 Where is undo button? There is only clear button.
+9.	Should clear button clean all the data or just the last one?
+10.	Why there is not tips for user to put correct data in correct format from the beginning and not to wait for error message occurs to fix it? 
+11.	There is a text in the app “Submit query for validation.” There is no description about it in the document.
+•	Testing
+1.	Test each field for validation 
+2.	Test buttons if they are clickable and main functionality is working 
+Major areas of testing:
+1.	Exploratory testing first to see if all fields and buttons listed in the documents are present.
+2.	Header: “R’ would be tested first with positive result: 9-19 characters any allowed. Then with negative: 8, 20 characters 
+3.	MKE: Positive : required – 2-4 alpha/special (any but not numeric)
+4.	Originating Agency Identifier:   Required, 9 alphanumeric characters in length
+5.	Name: R, 1-30 ch, any
+6.	Sex: R 1 ch, F, M or U only
+7.	Race: R 1 ch, alpha
+8.	Height: R, 3 ch, format FII
+9.	Weight: R, 3 ch, 3 char and 0 will be put make it 3 ch
+10.	Hair: R, 3-10 ch R alphabet
+11.	Offense: R 5-10 any
+12.	Date of Warrant/Violation: R 8 ch MMDDYYYY (allow dates from 1900 totoday +1 day )
+13.	Drivers License: Opt, 1-20 any if included DL state
+14.	DL State: Opt, 2 ch if Driver License included
+15.	DL Expiration Date: R 8 ch MMDDYYYY MMDDYYYY (allow dates from 1900 totoday +1 day )
+16.	License Plate: Opt, 5-8 alpha num, if present Required State and Year
+17.	License State: 2 ch ?? what it should be? Num alpha any?
+18.	License Year: 4 ch num in YYYY format
+19.	Check the version according to the document in app v 2.1 in name of app 1.4?
+20.	Then to check if it is possible to submit button without required fields and with required fields.
+21.	Each filed would be tested with positive result first and then with negative data.
+Bugs
+1.	According to the document in app v 2.1 in name of app 1.4?
+2.	No undo button visible (only clear).
+3.	And if undo = clear button, this button reset input only to blank, but not to last submitted values.
+
+
+
+
+
+
+Enter Wanted v1.4.
+•	Questions
+1.	What the purpose of that form?
+2.	All fields should be filled?
+3.	In section License State what characters type should be input?
+•	Testing
+1.	Test each field for validation 
+2.	Test buttons if they are clickable and main functionality is working 
+Major areas of testing:
+1.	Header: “R’ would be tested first with positive result: 9-19 characters any allowed. Then with negative: 8, 20 characters 
+2.	MKE: Positive : required – 2-4 alpha/special
+3.	Originating Agency Identifier:   Required, 9 alphanumeric characters in length
+4.	Name: R, 3-30 ch, any
+5.	Sex: R 1 ch, F, M or U only
+6.	Race: R 1 ch, alpha
+7.	Height: R, 3 ch, format FII
+8.	Weight: R, 3 ch, 3 char and 0 will be put make it 3 ch
+9.	Hair: R, 3-10 ch R
+10.	Offense: R 5-10 any
+11.	Date of Warrant/Violation: R 8 ch MMDDYYYY (allow dates from 1900 totoday +1 day )
+12.	Drivers License: Opt, 1-20 any if included DL state
+13.	DL State: Opt, 2 ch if Driver License included
+14.	DL Expiration Date: R 8 ch MMDDYYYY MMDDYYYY (allow dates from 1900 totoday +1 day )
+15.	License Plate: Opt, 5-8 alpha num, if present Required State and Year
+16.	License State: 2 ch ?? what it should be? Num alpha any?
+17.	License Year: 4 ch num in YYYY format
+18.	Check the version according to the document
+19.	Then to check if it is possible to submit button without required fields and with required fields. 
+
+
+
+
+
+
